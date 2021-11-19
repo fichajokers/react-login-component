@@ -1,0 +1,35 @@
+.formInput{
+    display: block;
+    margin: 1vh;
+    width: 80%;
+}
+
+label{
+    display: inherit;
+    margin-bottom: .5vh;
+}
+
+.formLoginContainer{
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    flex-direction  : column;
+    text-align      : center;
+}
+
+input{
+    border          : 0px;
+    border-radius   : 5px;
+    height          : 3vh
+}
+
+button{
+    display: flex;
+    align-content: center;
+    border-width: 0px;
+    border-radius: 5px;
+    margin: 2vh;
+    padding: 1vh;
+    color: white;
+    background: chocolate;
+}

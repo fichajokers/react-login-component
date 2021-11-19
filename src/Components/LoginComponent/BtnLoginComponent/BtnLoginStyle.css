@@ -1,0 +1,10 @@
+button{
+    display: flex;
+    align-content: center;
+    border-width: 0px;
+    border-radius: 5px;
+    margin: 2vh;
+    padding: 1vh;
+    color: white;
+    background: chocolate;
+}
