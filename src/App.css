@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+.errorMessage{
+  color: rgba(255, 0, 0, 0.521);
+  display: block;
+}
