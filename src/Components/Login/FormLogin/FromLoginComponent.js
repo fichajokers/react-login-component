@@ -1,4 +1,7 @@
 import React from "react"
+import BtnLoginComponent from '../BtnLogin/BtnLoginComponent'
+import ForgotPassword from "../ForgotPassword/ForgotPasswordComponent"
+import SignUpTextComponent from "../SignUp/SignUpText/SignUpTextComponent"
 import './FromLoginStyle.css'
 
 const FormLoginComponent = () =>{
@@ -23,7 +26,9 @@ const FormLoginComponent = () =>{
                 <label>Password</label>
                 <input type="password" name="password" required></input>
             </div>
-            <button type="submit">Login</button>
+            <BtnLoginComponent></BtnLoginComponent>
+            <ForgotPassword></ForgotPassword>
+            <SignUpTextComponent></SignUpTextComponent>
         </form>
     )
 }

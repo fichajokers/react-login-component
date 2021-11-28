@@ -1,9 +1,16 @@
 import './App.css';
-import LoginComponent from './Components/LoginComponent/LoginComponent';
+import { Routes, Route } from "react-router-dom";
+import LoginComponent from './Components/Login/LoginComponent';
+import SignUpComponent from './Components/Login/SignUp/SignUpComponent';
 
 function App() {
   return (
-    <LoginComponent></LoginComponent>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<LoginComponent />} />
+        <Route path="/signup" element={<SignUpComponent />} />
+      </Routes>
+    </div>
   );
 }
 

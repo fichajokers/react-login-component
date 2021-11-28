@@ -1,4 +1,4 @@
-import FormLoginComponent from "./FormLoginComponent/FromLoginComponent"
+import FormLoginComponent from "./FormLogin/FromLoginComponent"
 import './LoginStyle.css'
 
 const LoginComponent = () =>{
