@@ -1,6 +1,6 @@
 import './ForgotPasswordStyle.css'
 
-const ForgotPassword = () =>{
+const ForgotPasswordComponent = () =>{
     
     const forgotPassword = () =>{
         console.log("forgot password")
@@ -11,4 +11,4 @@ const ForgotPassword = () =>{
     )
 }
 
-export default ForgotPassword
+export default ForgotPasswordComponent

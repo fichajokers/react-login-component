@@ -1,9 +1,9 @@
 import React from "react"
 import BtnLoginComponent from '../BtnLogin/BtnLoginComponent'
-import ForgotPassword from "../ForgotPassword/ForgotPasswordComponent"
 import SignUpTextComponent from "../SignUp/SignUpText/SignUpTextComponent"
 import { useForm } from 'react-hook-form'
 import './FromLoginStyle.css'
+import ForgotPasswordText from "../ForgotPassword/ForgotPasswordText/ForgotPasswordTextComponent"
 
 const FormLoginComponent = () =>{
     const { 
@@ -49,7 +49,7 @@ const FormLoginComponent = () =>{
                 {errors.password && <span className="errorMessage">{errors.password.message}</span>}
             </div>
             <BtnLoginComponent></BtnLoginComponent>
-            <ForgotPassword></ForgotPassword>
+            <ForgotPasswordText></ForgotPasswordText>
             <SignUpTextComponent></SignUpTextComponent>
         </form>
     )
